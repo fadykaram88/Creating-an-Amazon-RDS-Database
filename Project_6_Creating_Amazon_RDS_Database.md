@@ -1,4 +1,5 @@
 # Project 6 – Creating an Amazon RDS Database
+![Amazon RDS Architecture](https://github.com/fadykaram88/Creating-an-Amazon-RDS-Database/blob/main/rds-guided-lab-arch.png?raw=true)
 
 ## Task 1: Launch a MySQL-Compatible Amazon RDS Instance
 
