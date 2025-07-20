@@ -1,0 +1,30 @@
+Project 6 
+Creating an Amazon RDS Database 
+in this project we will create a MySQL database in a VPC 
+MySQL is open source Relational Database Management System RDBMS .
+1 - in the console search about RDS then choose Create a Database
+Engine options : MySQL  
+note : Aurora > MySQL in performance 
+Templates : Dev/Test 
+Availability and durability : Single DB instance 
+2 - Settings
+DB instance identifier : inventory-db
+Master username : admin 
+Credentials management : self managed 
+Master password and Confirm master password : lab-password
+3 - Instance Configuration 
+DB instance class  : Burstable classes (includes t classes ) then select db.t3.micro 
+4 - Storage section 
+Storage type : General Purpose SSD (gp2) 
+Allocated Storage : 20 G 
+Expand Additional storage configuration 
+Clear the option of ( enable storage Autoscaling)
+5 - Connectivity 
+VPC : Lab VPC learn how to make the VPC ( project 3) 
+Choose existing security group  then choose App-SG  only 
+note : create new security group if you don't have ( project 3 )
+6 - Monitoring 
+turn off Enable Enhanced monitoring 
+7 - Additional configuration 
+Initial database name: inventory
+8 - Create Database 
